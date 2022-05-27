@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="box mt-1 p-5">
+      <h1>STUDENT RECORD</h1>
+  
+    <div class="create">
+      <a href="#" routerLink="/student/create/" class="btn btn-success">Create</a>
+    </div>
+  
+    </div>
+  
+    <table class="table table-bordered">
+      <tr>
+       <!--<th>id</th>--> 
+       <th>Name</th>
+
+        <th>Email ID</th>
+        <th>PhoneNumber</th>
+
+        <th>Age</th>
+        <th>Joined Date</th>
+        <th>Gender</th>
+        <th width="350px">Action</th>
+      </tr>
+      <tr *ngFor="let student of students">
+       <!-- <td>{{ student.id }}</td>-->
+        <td>{{ student.RollNumber }}</td>
+        <td>{{ student.Name }}</td>
+        <td>{{ student.Age }}</td>
+        <td>{{ student.Class }}</td>
+        <td>{{ student.Contact }}</td>
+        <td>{{ student.Email }}</td>
+        <td>
+        </td>
+      </tr>
+    </table>
+  </div>

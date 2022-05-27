@@ -1,0 +1,10 @@
+.create {
+    float: right;
+}
+.box {
+    background-color: black;
+    color: azure;
+}
+.table {
+    background-image: linear-gradient(to right,rgb(208, 226, 231),rgb(236, 187, 189));
+}
